@@ -11,3 +11,9 @@ updates:
     interval: "daily"
     time: "23:33" # (UTC) Default is 05:00
   open-pull-requests-limit: 5
+- package-ecosystem: docker
+  directory: "/subdir/"
+  schedule:
+    interval: "daily"
+    time: "23:37" # (UTC) Default is 05:00
+  open-pull-requests-limit: 5
